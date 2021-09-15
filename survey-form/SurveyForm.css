@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: linear-gradient(
+            120deg,
+            rgba(58, 58, 158, 0.8),
+            rgba(136, 136, 206, 0.7)
+    ),
+    url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+    font-size: 20px;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    height: 100%;
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px 40px 30px;
+    border-radius: 5px;
+}
+
+.form-part {
+    margin: 0 0 30px;
+    text-align: left;
+    font-size: inherit;
+}
+@media (max-width: 760px) {
+    body {
+        width: 540px;
+    }
+}
+
+@media (max-width: 560px) {
+    body {
+        width: 100%;
+    }
+}
+
+.form-control {
+    font-size: inherit;
+    height: 30px;
+    width: 100%;
+    color: gray;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+textarea
+{
+    font-family:'Poppins', sans-serif;
+    font-size: inherit;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    width: 100%;
+    resize: vertical;
+}
+
+button {
+    border: none;
+}
+
+#submit {
+    width: 100%;
+    font-size: inherit;
+    background-color: mediumseagreen;
+    color: white;
+    height: 50px;
+    border-radius: 5px;
+
+}
+.clue {
+    font-size: 15px;
+}
